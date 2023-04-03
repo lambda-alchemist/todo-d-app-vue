@@ -5,8 +5,10 @@ const name = ref('')
 </script>
 
 <template>
-	Hello, {{ name }}!
-	<form id="username">
-		<input v-model="name" />
-	</form>
+	<div class="m-2 flex flex-col p-2 text-center">
+		Hello, {{ name }}!
+		<form class="m-4 p-4">
+			<input placeholder="username" v-model="name" class="rounded border-blue-400 p-2" />
+		</form>
+	</div>
 </template>
