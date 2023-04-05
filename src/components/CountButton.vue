@@ -9,17 +9,17 @@ const decr = () => count.value--
 
 <template>
 	<div class="flex flex-col text-center">
-		Count is {{ count }}
+		<span>Count is {{ count }}</span>
 		<div class="flex justify-evenly align-middle">
 			<button
-				@click.prevent="incr"
-				class="m-2 rounded bg-blue-900 p-2 text-white hover:bg-blue-200 hover:text-black"
+				@click="incr"
+				class="m-2 rounded bg-green-600 p-2 text-white hover:bg-green-200 hover:text-green-900"
 			>
 				Increment
 			</button>
 			<button
-				@click.prevent="decr"
-				class="m-2 rounded bg-blue-900 p-2 text-white hover:bg-blue-200 hover:text-black"
+				@click="decr"
+				class="m-2 rounded bg-red-900 p-2 text-white hover:bg-red-200 hover:text-red-900"
 			>
 				Decrement
 			</button>
