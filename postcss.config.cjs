@@ -1,5 +1,5 @@
+/* eslint-disable no-undef */
 /** @type {import('postcss-load-config').Config} */
-// eslint-disable-next-line no-undef
 module.exports = {
 	plugins: {
 		tailwindcss: {},

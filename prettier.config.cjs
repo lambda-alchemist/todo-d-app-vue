@@ -1,11 +1,15 @@
 /* eslint-disable no-undef */
 /** @type {import('@types/prettier').Config} */
 module.exports = {
-	semi: false,
-	singleQuote: true,
+	endOfLine:'lf',
+	tabWidth: 4,
+	useTabs: true,
 	printWidth: 100,
 	trailingComma: "all",
-	arrowParens: "avoid",
+	semi: false,
+	singleQuote: true,
+	jsxSingleQuote: true,
+	arrowParens: "always",
 	editorconfig: true,
 	plugins: ["prettier-plugin-tailwindcss"],
 	tailwindConfig: "./tailwind.config.js"
