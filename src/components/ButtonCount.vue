@@ -13,13 +13,13 @@ const decr = () => count.value--
 		<div class="flex justify-evenly align-middle">
 			<button
 				@click="incr"
-				class="m-2 rounded bg-green-600 p-2 font-normal text-white transition-colors hover:bg-green-200 hover:font-medium hover:text-green-900"
+				class="m-2 rounded bg-green-600 p-2 font-normal text-white transition-colors hover:bg-green-200 hover:text-green-900"
 			>
 				Increment
 			</button>
 			<button
 				@click="decr"
-				class="m-2 rounded bg-red-900 p-2 font-normal text-white transition-colors hover:bg-red-200 hover:font-medium hover:text-red-900"
+				class="m-2 rounded bg-red-900 p-2 font-normal text-white transition-colors hover:bg-red-200 hover:text-red-900"
 			>
 				Decrement
 			</button>

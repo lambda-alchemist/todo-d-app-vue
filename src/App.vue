@@ -6,13 +6,11 @@ import NavBar from './components/NavBar.vue';
 </script>
 
 <template>
-	<div id="root" class="flex flex-col items-center">
-		<NavBar/>
-		<div class="p-4">
-			<CardGeneric>
-				<ButtonCount/>
-			</CardGeneric>
-			<GreeterUser username="Alchemist" />
-		</div>
+	<NavBar/>
+	<div class="p-4 flex flex-col items-center">
+		<CardGeneric>
+			<ButtonCount/>
+		</CardGeneric>
+		<GreeterUser username="Alchemist" />
 	</div>
 </template>

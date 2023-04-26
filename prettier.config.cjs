@@ -10,7 +10,6 @@ module.exports = {
 	singleQuote: true,
 	jsxSingleQuote: true,
 	arrowParens: "always",
-	editorconfig: true,
 	plugins: ["prettier-plugin-tailwindcss"],
 	tailwindConfig: "./tailwind.config.js"
 }
