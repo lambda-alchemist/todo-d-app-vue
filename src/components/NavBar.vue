@@ -1,20 +1,21 @@
 <script setup lang="ts">
 import NavBarButton from './NavBarButton.vue'
-const navBarHRef = [
+import { routes } from '@/router/index';
+const urls = [
 	{
-		id: 1,
-		href: '/docs',
-		name: 'Docs',
+		id: routes[0].id,
+		name: routes[0].name,
+		path: '/',
 	},
 	{
 		id: 2,
-		href: '/contribute',
-		name: 'Contribute',
+		name: 'Todo App',
+		path: '/todo-d-app',
 	},
 	{
 		id: 3,
-		href: '/about',
-		name: 'About Us',
+		name: 'About',
+		path: '/about',
 	},
 ]
 </script>
@@ -22,10 +23,10 @@ const navBarHRef = [
 	<nav class="flex w-full bg-emerald-950 font-sans font-semibold text-black">
 		<div class="flex flex-row">
 			<NavBarButton
-				v-for="link in navBarHRef"
-				:key="link.id"
-				:href="link.href"
-				:name="link.name"
+				v-for="url in urls"
+				:key="url.id"
+				:name="url.name"
+				:path="url.path"
 			/>
 		</div>
 	</nav>

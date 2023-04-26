@@ -2,8 +2,9 @@ import { createRouter, createWebHistory } from 'vue-router';
 import HomeViewVue from '@/view/HomeView.vue';
 import TodoAppViewVue from '@/view/TodoAppView.vue';
 
-const routes = [
+export const routes = [
 	{
+		id: 0,
 		path: '/',
 		name: 'Home',
 		component: HomeViewVue,
