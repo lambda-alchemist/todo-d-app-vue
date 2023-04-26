@@ -4,6 +4,5 @@ import App from '@/App.vue';
 import '@/tailwind.css';
 
 const app = createApp(App);
-
 app.use(Router);
 app.mount('#app');
