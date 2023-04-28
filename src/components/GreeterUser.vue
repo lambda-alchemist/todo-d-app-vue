@@ -11,7 +11,7 @@ const name = ref('')
 			<input
 				v-model="name"
 				placeholder="username"
-				class="rounded border-2 border-emerald-500 bg-slate-900 p-2 text-zinc-500"
+				class="rounded border-2 border-emerald-500 bg-slate-900 p-2 text-zinc-100 placeholder-shown:text-zinc-800"
 			/>
 		</form>
 	</div>

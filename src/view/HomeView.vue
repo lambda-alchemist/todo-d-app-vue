@@ -8,6 +8,6 @@ import CardGeneric from '@/components/CardGeneric.vue'
 		<CardGeneric>
 			<ButtonCount/>
 		</CardGeneric>
-		<GreeterUser username="Alchemist" />
+		<GreeterUser/>
 	</div>
 </template>
