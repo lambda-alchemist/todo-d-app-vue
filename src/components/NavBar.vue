@@ -5,18 +5,18 @@ const urls = [
 	{
 		id: routes[0].id,
 		name: routes[0].name,
-		path: '/',
+		path: routes[0].path,
 	},
 	{
-		id: 2,
-		name: 'Todo App',
-		path: '/todo-d-app',
+		id: routes[1].id,
+		name: routes[1].name,
+		path: routes[1].path,
 	},
 	{
-		id: 3,
-		name: 'About',
-		path: '/about',
-	},
+		id: routes[2].id,
+		name: routes[2].name,
+		path: routes[2].path,
+	}
 ]
 </script>
 <template>
