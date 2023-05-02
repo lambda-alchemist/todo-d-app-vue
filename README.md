@@ -1,4 +1,4 @@
-# 🗒 todo-d-app-vue
+# 🗒 Todo-D-App
 
 *Simple Todo app*
 
