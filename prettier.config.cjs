@@ -11,5 +11,5 @@ module.exports = {
 	jsxSingleQuote: true,
 	arrowParens: 'always',
 	plugins: ['prettier-plugin-tailwindcss'],
-	tailwindConfig: './tailwind.config.js',
+	tailwindConfig: './tailwind.config.cjs',
 }
