@@ -1,26 +1,26 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeViewVue from '@/view/HomeView.vue';
-import TodoAppViewVue from '@/view/TodoAppView.vue';
-import AboutUsViewVue from '@/view/AboutUsView.vue'
+import HomeLandingVue from '@/view/HomeLanding.vue';
+import TodoAppVue from '@/view/TodoApp.vue';
+import AboutUsVue from '@/view/AboutUs.vue'
 
 export const routes = [
 	{
 		id: 0,
 		path: '/',
 		name: 'Home',
-		component: HomeViewVue,
+		component: HomeLandingVue,
 	},
 	{
 		id: 1,
 		path: '/todo-d-app',
 		name: 'Todo App',
-		component: TodoAppViewVue,
+		component: TodoAppVue,
 	},
 	{
 		id: 2,
 		path: '/about-us',
 		name: 'About Us',
-		component: AboutUsViewVue,
+		component: AboutUsVue,
 	},
 ]
 
