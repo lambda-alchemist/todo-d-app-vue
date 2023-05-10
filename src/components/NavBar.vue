@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import NavBarButton from './NavBarButton.vue'
+import NavBarButton from './NavBarButton.vue';
 import { routes } from '@/router/index';
 const urls = [
 	{
@@ -16,8 +16,8 @@ const urls = [
 		id: routes[2].id,
 		name: routes[2].name,
 		path: routes[2].path,
-	}
-]
+	},
+];
 </script>
 <template>
 	<nav class="flex w-full bg-emerald-950 font-sans font-semibold text-black">

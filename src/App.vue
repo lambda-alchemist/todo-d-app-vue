@@ -2,9 +2,9 @@
 import NavBar from '@/components/NavBar.vue';
 </script>
 
-<template >
+<template>
 	<div class="h-full min-h-screen w-full bg-slate-950 text-white">
-		<NavBar/>
-		<RouterView/>
+		<NavBar />
+		<RouterView />
 	</div>
 </template>

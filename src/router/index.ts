@@ -1,7 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import HomeLandingVue from '@/view/HomeLanding.vue';
 import TodoAppVue from '@/view/TodoApp.vue';
-import AboutUsVue from '@/view/AboutUs.vue'
+import AboutUsVue from '@/view/AboutUs.vue';
 
 export const routes = [
 	{
@@ -22,9 +22,9 @@ export const routes = [
 		name: 'About Us',
 		component: AboutUsVue,
 	},
-]
+];
 
 export default createRouter({
 	history: createWebHistory(),
 	routes,
-})
+});

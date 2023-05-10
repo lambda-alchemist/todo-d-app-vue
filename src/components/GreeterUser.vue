@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-const name = ref('')
+const name = ref('');
 </script>
 
 <template>

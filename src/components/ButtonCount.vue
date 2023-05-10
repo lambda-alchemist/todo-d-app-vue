@@ -1,10 +1,14 @@
 <script setup lang="ts">
-import { ref } from 'vue'
+import { ref } from 'vue';
 
-const count = ref(0)
+const count = ref(0);
 
-const incr = () => { count.value++ }
-const decr = () => { count.value-- }
+const incr = () => {
+	count.value++;
+};
+const decr = () => {
+	count.value--;
+};
 </script>
 
 <template>
